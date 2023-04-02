@@ -1,0 +1,274 @@
+body {
+  height: 100vh;
+  overflow-y: hidden;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+    to top,
+    rgb(214, 202, 133) 90%,
+    rgb(219, 200, 93) 100%
+  );
+}
+
+header {
+  margin-left: 1%;
+  text-align: center;
+  width: 97vw;
+  height: 7vw;
+  border: solid rgba(73, 54, 32, 0.952);
+}
+header h1 {
+  position: relative;
+  bottom: 50px;
+  font-size: 80px;
+  color: rgba(73, 54, 32, 0.952);
+}
+
+.info {
+  margin-left: 1%;
+  text-align: center;
+  font-size: 25px;
+  width: 97vw;
+  border-bottom: solid rgba(73, 54, 32, 0.952);
+}
+section {
+  margin-top: 1%;
+  margin-left: 1%;
+  height: 70vh;
+  border-right: solid rgba(73, 54, 32, 0.952);
+  width: 31vw;
+  position: relative;
+}
+section h2 {
+  border-bottom: solid rgba(73, 54, 32, 0.952);
+  width: 29vw;
+}
+.pro1 h3 {
+  border: solid;
+  height: 45px;
+  width: 60px;
+  text-align: center;
+  padding: 1%;
+  font-size: 35px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 20px;
+}
+.pro2 h3 {
+  border: solid;
+  height: 45px;
+  width: 60px;
+  text-align: center;
+  padding: 1%;
+  font-size: 35px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 15px;
+  left: 24vw;
+}
+.pro3 h3 {
+  border: solid;
+  height: 80px;
+  width: 135px;
+  text-align: center;
+  padding: 1%;
+  font-size: 30px;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  bottom: 15px;
+  top: -2vh;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
+.pro4 h3 {
+  font-size: 18px;
+  animation-name: flick;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease;
+
+}
+@keyframes flick {
+0%{
+        color: white;
+    }
+30%{
+        color: red;
+    }
+    50%{
+        color: rgb(72, 255, 0);
+    }
+    70%{
+        color: rgb(255, 0, 170);
+    }
+    100%{
+        color: rgb(175, 22, 22);
+    }
+    
+}
+
+.pro1 p {
+  position: absolute;
+  top: 35px;
+  left: 90px;
+}
+.pro2 p {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+}
+.pro3 p {
+  position: absolute;
+  top: 40vh;
+  left: 12vw;
+}
+.pro1 a {
+  border: solid rgba(73, 54, 32, 0.952);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(73, 54, 32, 0.952);
+  margin-left: 130px;
+  font-size: 16px;
+  position: relative;
+  top: 6px;
+}
+.pro2 a {
+  border: solid rgba(73, 54, 32, 0.952);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(73, 54, 32, 0.952);
+  position: relative;
+  top: 6px;
+  font-size: 16px;
+}
+.pro3 a {
+  border: solid rgba(73, 54, 32, 0.952);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(73, 54, 32, 0.952);
+  position: relative;
+  top: 6px;
+  font-size: 16px;
+}
+.pro3 {
+  margin-top: 10px;
+  border-top: solid;
+  border-bottom: solid;
+  height: 125px;
+  width: 29vw;
+}
+.pro1 {
+  border-bottom: solid;
+  height: 60px;
+  width: 29vw;
+}
+.outerpro {
+  background-color: rgb(192, 179, 103);
+  height: 109px;
+  margin-right: 20px;
+  margin-top: 7px;
+  width: 30.5vw;
+}
+.pro2 {
+  position: absolute;
+  top: 142px;
+  left: 7px;
+  background-color: rgb(214, 202, 133);
+  width: 29.5vw;
+  height: 90px;
+}
+article {
+  position: absolute;
+  top: 155px;
+  left: 33.4vw;
+  height: 70vh;
+  border-right: solid rgba(73, 54, 32, 0.952);
+  width: 35vw;
+}
+article div {
+  width: 32vw;
+
+  margin-left: 11px;
+}
+article h2 {
+  letter-spacing: 10px;
+  border: solid;
+  border-style: dashed;
+  text-align: center;
+  height: 40px;
+  font-size: 30px;
+  font-family: cursive;
+}
+article h1{
+    border: solid rgba(73, 54, 32, 0.952);
+    text-align: center;
+    background-color:rgba(73, 54, 32, 0.952) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+aside {
+  position: absolute;
+  top: 155px;
+  left: 71vw;
+  height: 70vh;
+  width: 29vw;
+}
+.link {
+  padding-top: 40px;
+}
+.face {
+  padding-top: 10px;
+}
+.calll {
+  margin-top: 40px;
+  width: 27vw;
+  height: 180px;
+  border: solid;
+  text-align: center;
+}
+aside a{color:rgba(73, 54, 32, 0.952) ;
+font-size: 20px;
+text-decoration: none;}
+.call {
+
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+.others{
+  margin-top: 50px;
+  margin-left: 80px;
+  
+}
+aside nav{
+  margin-top: 20px;
+font-size: 22px;
+}
+.callbefore{
+  margin-left: 80px;
+  
+  margin-top: 30px;
+}
+aside h3 {
+  font-size: 25px;
+}
+
+.dm{
+    position: absolute;
+    left:27vw;
+    background-color:white ;
+    bottom: 30px;
+    height: 30px;
+    width: 190px;
+    border: solid white;
+    border-radius: 100px 100px 100px 100px;
+   
+}
+.dm a{
+    color:rgba(73, 54, 32, 0.952)  ;
+    font-size: 18px;
+    text-align: center;
+}
